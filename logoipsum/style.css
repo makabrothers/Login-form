@@ -1,0 +1,116 @@
+/* Reset some basic elements */
+body, html {
+          margin: 0;
+          padding: 0;
+          font-family: Arial, sans-serif;
+      }
+      
+      body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          background-color: #f0f0f0;      }
+      
+   #main {
+          display: flex;
+          width: 900px;
+          height: 500px;
+          box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+          background-color: white;
+          border-radius: 12px;
+      }
+      
+      .left {
+          width: 50%;
+          background: url('./bg-img.jpeg') no-repeat center center;
+          background-size: cover;
+          position: relative;
+          border-radius: 12px 0 0 12px;
+      }
+      
+      .left>img {
+          position: absolute;
+          top: 20px;
+          left: 20px;
+          width: 120px;
+          padding: 30px 0 0 10px;
+          font-style: bold;
+      }
+
+      .left>p{
+          padding: 112% 0 0 30px;
+          color: #fff;
+          font-size: 8px;
+      }
+      
+      .right {
+          width: 50%;
+          padding: 40px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+      }
+      
+      .login{
+          width: 100%;
+          max-width: 350px;
+          margin: auto;
+      }
+      
+      .login h2 {
+          margin-bottom: 40px;
+          font-size: 24px;
+          color: #333;
+      }
+      
+      .login h2 span {
+          color: #00B1DB;
+      }
+      
+      .input-all {
+          margin-bottom: 15px;
+          display: flex;
+          flex-direction: column;
+      }
+      
+      .input-all label {
+          margin-bottom: 5px;
+          font-weight: 300;
+           color: #ccc;
+      }
+      
+      .input-all input {
+          padding: 10px;
+          font-size: 14px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+      }
+      .input-all input:focus{
+          outline: none;
+          border-color: #00B1DB;
+          background-color: none;
+          box-shadow: 2px 3px 1px #000;
+      }
+      .forgot-password {
+          text-align: right;
+          margin-bottom: 20px;
+      }
+      
+      .forgot-password a {
+          color: #000;
+      }
+      .login-button {
+          width: 100%;
+          padding: 10px;
+          font-size: 16px;
+          border: none;
+          border-radius: 5px;
+          background-color: #00B1DB;
+          color: white;
+          cursor: pointer;
+      }
+      
+      .login-button:hover {
+          background-color: #05677f;
+      }
